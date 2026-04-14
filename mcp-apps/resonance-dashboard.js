@@ -137,7 +137,7 @@ export function generateResonanceDashboardUI(options = {}) {
         
         .metric-bar {
             height: 4px;
-            background: rgba(255,255,255,0.1);
+            background: transparent;
             border-radius: 2px;
             margin: 6px 0;
             overflow: hidden;
