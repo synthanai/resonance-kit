@@ -1,0 +1,607 @@
+=== 🌐 ECOSYSTEM AUDIT START ===
+Timestamp: Tue Mar 24 00:14:20 AEDT 2026
+
+=== SPAR-KIT ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../spar-kit
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 67
+📊 Total tokens: 149,135
+💰 Avg context budget: 2226 tokens/file
+
+⚠️  5 files exceed 5000 token budget
+
+💸 Most Expensive Files:
+
+   ● /cli/index.js (8,997 tokens)
+   ● /spar.js (8,351 tokens)
+   ● /cli/arena.js (8,271 tokens)
+   ● /coverage/prettify.js (6,995 tokens)
+   ● /coverage/lcov-report/prettify.js (6,995 tokens)
+   ○ /cli/personas.js (4,755 tokens)
+   ○ /cli/commands.js (4,076 tokens)
+   ○ /cli/tui/components/SparBuilder.js (3,861 tokens)
+   ○ /cli/providers.js (3,258 tokens)
+   ○ /__tests__/spar.test.js (3,167 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 50
+   Promise .catch(): 4
+   Named exports: 180
+   Default exports: 34
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 71%
+
+   ✅ FRAME
+   ✅ SPAR
+   ✅ GATE
+   ✅ COMMIT
+   ❌ ENACT
+   ✅ YIELD
+   ❌ GAUGE
+
+📋 Standards Compliance:
+
+   ✅ OSS_IP_BOUNDARY.md
+   ✅ LICENSE
+
+✅ DMS Compliant
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 82/100
+════════════════════════════════════════════════════════════
+
+🎯 Production Ready - Excellent AI/Human collaboration potential
+
+=== VAULT-KIT ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../vault-kit
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 13
+📊 Total tokens: 13,210
+💰 Avg context budget: 1016 tokens/file
+
+✅ All files within budget
+
+💸 Most Expensive Files:
+
+   ○ /mcp-apps/audit-log.js (2,186 tokens)
+   ○ /tests/invariants/invariants.test.ts (2,004 tokens)
+   ○ /src/core/invariants.ts (1,584 tokens)
+   ○ /src/zk-dissent-ext.js (1,547 tokens)
+   ○ /src/core/types.ts (1,319 tokens)
+   ○ /src/wisdom-gate.js (1,224 tokens)
+   ○ /src/mcp/server.ts (956 tokens)
+   ○ /scripts/agentic_bridge.py (897 tokens)
+   ○ /src/gauge.js (753 tokens)
+   ○ /src/bridge/agentic.ts (602 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 4
+   Promise .catch(): 1
+   Named exports: 23
+   Default exports: 4
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 71%
+
+   ✅ FRAME
+   ✅ SPAR
+   ✅ GATE
+   ✅ COMMIT
+   ❌ ENACT
+   ❌ YIELD
+   ✅ GAUGE
+
+📋 Standards Compliance:
+
+   ✅ OSS_IP_BOUNDARY.md
+   ✅ LICENSE
+
+✅ DMS Compliant
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 100/100
+════════════════════════════════════════════════════════════
+
+🎯 Production Ready - Excellent AI/Human collaboration potential
+
+=== AGENTIC-KIT ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../agentic-kit
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 61
+📊 Total tokens: 55,086
+💰 Avg context budget: 903 tokens/file
+
+✅ All files within budget
+
+💸 Most Expensive Files:
+
+   ○ /agentic_kit/dispatchers.py (2,736 tokens)
+   ○ /agentic_kit/circuit_breaker.py (2,685 tokens)
+   ○ /agentic_kit/session_manager.py (2,491 tokens)
+   ○ /agentic_kit/model_fallback.py (2,331 tokens)
+   ○ /agentic_kit/memory.py (2,308 tokens)
+   ○ /packages/arivar-mcp/aot-abstraction.js (2,146 tokens)
+   ○ /agentic_kit/context7_bridge.py (1,922 tokens)
+   ○ /packages/arivar-mcp/three-layer-router.js (1,855 tokens)
+   ○ /agentic_kit/reflection.py (1,751 tokens)
+   ○ /src/wisdom-bridge.js (1,731 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 14
+   Promise .catch(): 4
+   Named exports: 61
+   Default exports: 9
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 100%
+
+   ✅ FRAME
+   ✅ SPAR
+   ✅ GATE
+   ✅ COMMIT
+   ✅ ENACT
+   ✅ YIELD
+   ✅ GAUGE
+
+📋 Standards Compliance:
+
+   ✅ OSS_IP_BOUNDARY.md
+   ✅ LICENSE
+
+✅ DMS Compliant
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 100/100
+════════════════════════════════════════════════════════════
+
+🎯 Production Ready - Excellent AI/Human collaboration potential
+
+=== KURAL-KIT ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../kural-kit
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 18
+📊 Total tokens: 26,335
+💰 Avg context budget: 1463 tokens/file
+
+⚠️  1 files exceed 5000 token budget
+
+💸 Most Expensive Files:
+
+   ● /cli/corpus/chapters.js (7,892 tokens)
+   ○ /cli/index.js (2,992 tokens)
+   ○ /cli/personas/text.js (2,069 tokens)
+   ○ /cli/personas/author.js (1,934 tokens)
+   ○ /cli/protected-wisdom.js (1,408 tokens)
+   ○ /cli/corpus/citation.js (1,397 tokens)
+   ○ /cli/semantic.js (1,173 tokens)
+   ○ /tests/integration.test.js (1,169 tokens)
+   ○ /cli/overlays.js (1,104 tokens)
+   ○ /tests/schema.test.js (1,007 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 4
+   Promise .catch(): 0
+   Named exports: 0
+   Default exports: 0
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 43%
+
+   ✅ FRAME
+   ✅ SPAR
+   ❌ GATE
+   ❌ COMMIT
+   ❌ ENACT
+   ❌ YIELD
+   ✅ GAUGE
+
+📋 Standards Compliance:
+
+   ✅ OSS_IP_BOUNDARY.md
+   ✅ LICENSE
+
+✅ DMS Compliant
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 99/100
+════════════════════════════════════════════════════════════
+
+🎯 Production Ready - Excellent AI/Human collaboration potential
+
+=== DECISION-MOMENT-GRAPH ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../decision-moment-graph
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 42
+📊 Total tokens: 73,433
+💰 Avg context budget: 1748 tokens/file
+
+✅ All files within budget
+
+💸 Most Expensive Files:
+
+   ○ /dmg/cli/dmg_validate.py (4,507 tokens)
+   ○ /dmg/sdk/swarm_coordinator.py (4,351 tokens)
+   ○ /dmg/sdk/agentic_adapter.py (4,344 tokens)
+   ○ /tests/unit/test_agentic_adapter.py (3,565 tokens)
+   ○ /dmg/sdk/audit_export.py (3,532 tokens)
+   ○ /app/src/main.js (3,461 tokens)
+   ○ /app/src/services/spar-service.js (2,865 tokens)
+   ○ /tests/integration/test_workflow.py (2,535 tokens)
+   ○ /dmg/cli/lifecycle.py (2,505 tokens)
+   ○ /tests/integration/test_outcome.py (2,462 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 4
+   Promise .catch(): 0
+   Named exports: 16
+   Default exports: 3
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 100%
+
+   ✅ FRAME
+   ✅ SPAR
+   ✅ GATE
+   ✅ COMMIT
+   ✅ ENACT
+   ✅ YIELD
+   ✅ GAUGE
+
+📋 Standards Compliance:
+
+   ✅ OSS_IP_BOUNDARY.md
+   ✅ LICENSE
+
+✅ DMS Compliant
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 100/100
+════════════════════════════════════════════════════════════
+
+🎯 Production Ready - Excellent AI/Human collaboration potential
+
+=== ramp ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../ramp
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 11
+📊 Total tokens: 12,518
+💰 Avg context budget: 1138 tokens/file
+
+✅ All files within budget
+
+💸 Most Expensive Files:
+
+   ○ /ramp-kit/src/lib/cards.js (1,667 tokens)
+   ○ /ramp-kit/src/index.js (1,523 tokens)
+   ○ /ramp-kit/src/lib/scoring.js (1,435 tokens)
+   ○ /ramp-kit/src/commands/doors.js (1,324 tokens)
+   ○ /ramp-kit/src/commands/history.js (1,251 tokens)
+   ○ /ramp-kit/src/commands/score.js (1,210 tokens)
+   ○ /ramp-kit/src/lib/storage.js (1,180 tokens)
+   ○ /ramp-kit/src/commands/start.js (1,008 tokens)
+   ○ /ramp-kit/src/commands/card.js (993 tokens)
+   ○ /ramp-kit/src/commands/list.js (658 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 2
+   Promise .catch(): 0
+   Named exports: 23
+   Default exports: 0
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 14%
+
+   ❌ FRAME
+   ❌ SPAR
+   ❌ GATE
+   ✅ COMMIT
+   ❌ ENACT
+   ❌ YIELD
+   ❌ GAUGE
+
+📋 Standards Compliance:
+
+   ❌ OSS_IP_BOUNDARY.md
+   ❌ LICENSE
+
+⚠️  2 DMS issues:
+   🟡 Missing OSS_IP_BOUNDARY.md (Required for OSS Kit)
+   🔴 Missing LICENSE file
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 86/100
+════════════════════════════════════════════════════════════
+
+🎯 Production Ready - Excellent AI/Human collaboration potential
+
+=== ramp-kit ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../ramp-kit
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 14
+📊 Total tokens: 32,136
+💰 Avg context budget: 2295 tokens/file
+
+⚠️  2 files exceed 5000 token budget
+
+💸 Most Expensive Files:
+
+   ● /src/index.js (8,469 tokens)
+   ● /src/modes/mvr-phase.js (7,409 tokens)
+   ○ /src/commands/mvr.js (3,136 tokens)
+   ○ /src/lib/utils.js (2,127 tokens)
+   ○ /src/lib/cards.js (1,667 tokens)
+   ○ /src/lib/scoring.js (1,435 tokens)
+   ○ /src/commands/doors.js (1,324 tokens)
+   ○ /src/commands/history.js (1,251 tokens)
+   ○ /src/commands/score.js (1,210 tokens)
+   ○ /src/lib/storage.js (1,180 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 8
+   Promise .catch(): 0
+   Named exports: 43
+   Default exports: 0
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 29%
+
+   ❌ FRAME
+   ❌ SPAR
+   ✅ GATE
+   ✅ COMMIT
+   ❌ ENACT
+   ❌ YIELD
+   ❌ GAUGE
+
+📋 Standards Compliance:
+
+   ✅ OSS_IP_BOUNDARY.md
+   ✅ LICENSE
+
+✅ DMS Compliant
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 93/100
+════════════════════════════════════════════════════════════
+
+🎯 Production Ready - Excellent AI/Human collaboration potential
+
+=== spar-arena ===
+
+🔬 Resonance Kit v1.0.0
+
+Scanning: ../spar-arena
+
+
+🏛️  Running DMS Compliance Check...
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE REPORT
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  CONTEXT ANALYSIS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📁 Files analyzed: 61
+📊 Total tokens: 201,489
+💰 Avg context budget: 3303 tokens/file
+
+⚠️  7 files exceed 5000 token budget
+
+💸 Most Expensive Files:
+
+   ● /web/src/personas.js (19,142 tokens)
+   ● /web/src/personas/real.js (10,036 tokens)
+   ● /debates/108-spars/scripts/arangam_model_router.py (9,355 tokens)
+   ● /demos/anti-hallucination/update_dashboard_matrix.py (8,097 tokens)
+   ● /demos/anti-hallucination/deep_ultra_generator.py (7,346 tokens)
+   ● /debates/108-spars/scripts/qa_evaluator.py (7,293 tokens)
+   ● /web/src/personas/archetypes.js (5,354 tokens)
+   ○ /debates/108-spars/scripts/generate_debate.py (4,686 tokens)
+   ○ /debates/108-spars/ui/arangam-engine.js (4,669 tokens)
+   ○ /debates/debate_runner.py (4,314 tokens)
+
+
+🔍 Pattern Analysis
+
+   Try/Catch blocks: 34
+   Promise .catch(): 11
+   Named exports: 66
+   Default exports: 15
+
+✅ No significant pattern inconsistencies
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  DMS COMPLIANCE REPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏛️  Heptagon Coverage: 71%
+
+   ✅ FRAME
+   ✅ SPAR
+   ✅ GATE
+   ✅ COMMIT
+   ❌ ENACT
+   ✅ YIELD
+   ❌ GAUGE
+
+📋 Standards Compliance:
+
+   ✅ OSS_IP_BOUNDARY.md
+   ✅ LICENSE
+
+✅ DMS Compliant
+
+
+════════════════════════════════════════════════════════════
+  RESONANCE SCORE: 72/100
+════════════════════════════════════════════════════════════
+
+⚠️  Developing - Some optimization opportunities remain
+
+
+=== 🌐 ECOSYSTEM AUDIT COMPLETE ===
