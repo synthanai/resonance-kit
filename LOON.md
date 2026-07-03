@@ -1,4 +1,4 @@
-# Mirror / LOON — Repo: resonance-kit
+# Mirror / LOON  -  Repo: resonance-kit
 
 ## Entry: 2026-04-13
 

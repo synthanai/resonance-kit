@@ -1,4 +1,4 @@
-# நூல் / NOOL — Module: resonance-kit/src
+# நூல் / NOOL  -  Module: resonance-kit/src
 
 ## நோக்கம் / Intent
 Specialised sub-layer component for resonance-kit.

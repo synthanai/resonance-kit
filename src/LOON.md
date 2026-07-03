@@ -1,4 +1,4 @@
-# Mirror / LOON — Module: resonance-kit/src
+# Mirror / LOON  -  Module: resonance-kit/src
 
 ## Entry: 2026-04-13
 
